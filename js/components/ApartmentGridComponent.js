@@ -33,10 +33,10 @@ class ApartmentGridComponent {
       this.htmlElement.innerHTML = '<div class="text-center"><img src="assets/loading.gif" /></div>';
     } else if (apartments.length > 0) {
       this.htmlElement.innerHTML= '';
-      const apartmentCardComponents = apartment
+      const children = apartments
       .map(x => new ApartmentCardComponent(x))
       .map(x => x.htmlElement)
-      this.htmlElement.append(...apartmentCardComponents);
+      this.htmlElement.append(...children);
     } else {
       this.htmlElement.innerHTML = 'NĖRA DUOMENŲ';
     };
