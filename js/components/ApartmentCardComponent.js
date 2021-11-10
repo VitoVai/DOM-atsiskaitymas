@@ -1,4 +1,4 @@
-class ApartmentCardComponet {
+class ApartmentCardComponent {
   constructor(props) {
     this.props = props;
     this.init();
