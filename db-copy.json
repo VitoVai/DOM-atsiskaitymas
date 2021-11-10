@@ -1,0 +1,70 @@
+{
+  "apartament": [
+    {
+      "id": "1",
+      "type": "house",
+      "owner": {
+        "fulname": "SpongeBob SquarePants",
+        "email": "bob@sponge.com",
+        "phone": "454848411"
+      },
+      "roomCount": 1,
+      "squares": 20,
+      "address": {
+        "city": "Bikini Bottom",
+        "country": "The floor of the Pacific Ocean",
+        "street": "Pineapple",
+        "number": "1"
+      },
+      "price": {
+        "amount": 20000,
+        "currency": "€"
+      },
+      "imgSrc": "https://static.wikia.nocookie.net/spongefan/images/e/e1/SpongeBob_house.jpg/revision/latest/scale-to-width-down/640?cb=20180210163257"
+    },
+    {
+      "id": "2",
+      "type": "flat",
+      "owner": {
+        "fulname": "Pavlik Padjezdnij",
+        "email": "sexypavel@one.lt",
+        "phone": "453444"
+      },
+      "roomCount": 1,
+      "squares": 16,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "street": "Šalkalvių",
+        "number": "7"
+      },
+      "price": {
+        "amount": 18999,
+        "currency": "€"
+      },
+      "imgSrc": "https://miro.medium.com/max/1024/1*Lhlb_GueUcjtGYWacDDsuQ.png"
+    },
+    {
+      "id": "3",
+      "type": "cottage",
+      "owner": {
+        "fulname": "Vlad the Impaler",
+        "email": "dracula@blood.ro",
+        "phone": "666666666"
+      },
+      "roomCount": 20,
+      "squares": 811,
+      "address": {
+        "city": "Brasov",
+        "country": "Romania",
+        "street": "Blood",
+        "number": "6"
+      },
+      "price": {
+        "amount": 20,
+        "currency": "25000000"
+      },
+      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/1/17/Castelul_Bran2.jpg"
+    }
+  ]
+}

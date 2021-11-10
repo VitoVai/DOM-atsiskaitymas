@@ -1,0 +1,24 @@
+{
+  "name": "dom-atsiskaitymas",
+  "version": "1.0.0",
+  "description": "node.js",
+  "main": "index.js",
+  "scripts": {
+    "start-windows": "node_modules\\.bin\\json-server --watch db.json",
+    "start-unix": "node_modules/.bin/json-server --watch db.json",
+    "test": "ls -a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitoVai/DOM-atsiskaitymas.git"
+  },
+  "author": "Vitalius Vaidila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitoVai/DOM-atsiskaitymas/issues"
+  },
+  "homepage": "https://github.com/VitoVai/DOM-atsiskaitymas#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
